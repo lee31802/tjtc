@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	// test
 	r := gin.Default()
 	r.LoadHTMLFiles("html/login.html")
 	r.GET("/home", func(c *gin.Context) {
